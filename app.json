@@ -1,42 +1,54 @@
 {
   "expo": {
-    "name": "kaaravaan",
-    "slug": "kaaravaan",
+    "name": "Kaaravaan",
+    "slug": "Kaaravaan",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "kaaravaan",
+    "icon": "./assets/images/icon-my.png",
+    "scheme": "kaaravan",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
+    "splash": {
+      "image": "./assets/images/black.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/icon-my.png",
+        "backgroundColor": "#000"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.aarin123.Kaaravaan"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/icon-my.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "image": "./assets/images/black.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#000",
+          "imageWidth": 300
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8f9bbeb6-8029-40d7-978a-84dea4d97c85"
+      }
     }
   }
 }
