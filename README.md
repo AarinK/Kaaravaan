@@ -9,17 +9,19 @@ The goal of this project was to build a lightweight and reliable mobile tool for
 ## Features
 
 - Create and manage trips
-- Add and track expenses for each trip
-- Offline-first functionality (no internet required)
-- Persistent local storage to retain data across app restarts
-- Visual spending analytics using charts
-- Clean and responsive mobile UI
+- Plan itineraries for trips
+- Track expenses for each trip
+- Offline-first functionality (works without internet)
+- Local data persistence across app restarts
+- Expense analytics and summaries
+- Trip photo gallery
+- Polaroid-style memory creator
 
 ---
 
 ## Tech Stack
 
-**Frontend**
+**Mobile App**
 - React Native
 - TypeScript
 - Expo
@@ -30,21 +32,40 @@ The goal of this project was to build a lightweight and reliable mobile tool for
 **Storage**
 - Local persistent storage
 
-**Visualization**
-- Chart-based expense analytics
+**UI**
+- React Native components
+- Custom UI layouts
 
 ---
 
 ## Screenshots
 
-### Trip Dashboard
-![Trip Dashboard](screenshots/dashboard.png)
+### Dashboard
+![Dashboard](screenshots/Dashboard.jpeg)
 
-### Expense Tracking
-![Expense Tracking](screenshots/expenses.png)
+### Trip Planner
+![Planner](screenshots/Planner_Page.jpeg)
 
-### Expense Analytics
-![Analytics](screenshots/analytics.png)
+### Trip Planner (Alternate View)
+![Planner2](screenshots/Planner_Page2.jpeg)
+
+### Trip Gallery
+![Gallery](screenshots/Trip_Gallery_Page.jpeg)
+
+### Update Expense
+![Update Expense](screenshots/Update_Expense_Page.jpeg)
+
+### Expense Summary
+![Summary](screenshots/Summary_Page.jpeg)
+
+### Complete Trip
+![Complete Trip](screenshots/Complete_Trip_Page.jpeg)
+
+### Polaroid Maker
+![Polaroid Maker](screenshots/Polaroid_Maker_Page.jpeg)
+
+### Sample Expense Bill
+![Sample Bill](screenshots/Sample_Bill.jpeg)
 
 ---
 
@@ -56,7 +77,7 @@ The goal of this project was to build a lightweight and reliable mobile tool for
 git clone https://github.com/AarinK/Kaaravaan.git
 ```
 
-### 2. Navigate to the project directory
+### 2. Navigate to the project folder
 
 ```bash
 cd Kaaravaan
@@ -68,17 +89,17 @@ cd Kaaravaan
 npm install
 ```
 
-### 4. Run the development server
+### 4. Start the development server
 
 ```bash
 npx expo start
 ```
 
-You can then run the app using:
+You can run the application using:
 
-- Expo Go on your mobile device
-- Android Emulator
-- iOS Simulator
+- **Expo Go (Mobile Device)**
+- **Android Emulator**
+- **iOS Simulator**
 
 ---
 
@@ -87,33 +108,35 @@ You can then run the app using:
 ```
 Kaaravaan
 │
-├── components      # Reusable UI components
-├── screens         # Application screens
-├── assets          # Images, icons and static files
-├── utils           # Helper functions
-└── App.tsx         # Application entry point
+├── components        # Reusable UI components
+├── screens           # Application screens
+├── assets            # Static assets and images
+├── utils             # Utility functions
+├── screenshots       # README screenshots
+└── App.tsx           # Application entry point
 ```
 
 ---
 
 ## Key Learnings
 
-While building this project, I gained hands-on experience with:
+While building this project, I gained practical experience with:
 
 - Designing **offline-first mobile applications**
 - Managing **local data persistence**
-- Building modular and reusable **React Native components**
-- Implementing **expense analytics and visualization**
-- Structuring scalable mobile app architecture
+- Building modular **React Native components**
+- Structuring scalable **mobile app architecture**
+- Implementing **expense tracking and analytics**
 
 ---
 
 ## Future Improvements
 
 - Cloud sync for multi-device access
-- Group trip planning and shared expenses
-- Budget alerts and spending limits
-- Export trip reports
+- Group trip expense sharing
+- Budget alerts and notifications
+- Exportable trip reports
+- AI-based trip planning suggestions
 
 ---
 
@@ -128,4 +151,4 @@ LinkedIn: https://www.linkedin.com/in/aarinkachroo/
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open-source and available under the **MIT License**.
