@@ -40,32 +40,25 @@ The goal of this project was to build a lightweight and reliable mobile tool for
 
 ## Screenshots
 
-### Dashboard
-![Dashboard](screenshots/Dashboard.jpeg)
+<table>
+<tr>
+<td><img src="screenshots/Dashboard.jpeg" width="250"></td>
+<td><img src="screenshots/Planner_Page.jpeg" width="250"></td>
+<td><img src="screenshots/Planner_Page2.jpeg" width="250"></td>
+</tr>
 
-### Trip Planner
-![Planner](screenshots/Planner_Page.jpeg)
+<tr>
+<td><img src="screenshots/Trip_Gallery_Page.jpeg" width="250"></td>
+<td><img src="screenshots/Update_Expense_Page.jpeg" width="250"></td>
+<td><img src="screenshots/Summary_Page.jpeg" width="250"></td>
+</tr>
 
-### Trip Planner (Alternate View)
-![Planner2](screenshots/Planner_Page2.jpeg)
-
-### Trip Gallery
-![Gallery](screenshots/Trip_Gallery_Page.jpeg)
-
-### Update Expense
-![Update Expense](screenshots/Update_Expense_Page.jpeg)
-
-### Expense Summary
-![Summary](screenshots/Summary_Page.jpeg)
-
-### Complete Trip
-![Complete Trip](screenshots/Complete_Trip_Page.jpeg)
-
-### Polaroid Maker
-![Polaroid Maker](screenshots/Polaroid_Maker_Page.jpeg)
-
-### Sample Expense Bill
-![Sample Bill](screenshots/Sample_Bill.png)
+<tr>
+<td><img src="screenshots/Complete_Trip_Page.jpeg" width="250"></td>
+<td><img src="screenshots/Polaroid_Maker_Page.jpeg" width="250"></td>
+<td><img src="screenshots/Sample_Bill.jpeg" width="250"></td>
+</tr>
+</table>
 
 ---
 
