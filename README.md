@@ -1,50 +1,131 @@
-# Welcome to your Expo app 👋
+# Kaaravaan – Offline Trip Planner & Expense Tracker
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Kaaravaan is an **offline-first mobile application** that allows users to plan trips and track expenses without requiring an internet connection. The app ensures reliable access to trip details and expense data even in low or no connectivity environments.
 
-## Get started
+The goal of this project was to build a lightweight and reliable mobile tool for travelers where trip planning and expense tracking work seamlessly **without network dependency**.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- Create and manage trips
+- Add and track expenses for each trip
+- Offline-first functionality (no internet required)
+- Persistent local storage to retain data across app restarts
+- Visual spending analytics using charts
+- Clean and responsive mobile UI
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+**Frontend**
+- React Native
+- TypeScript
+- Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+**State Management**
+- React Hooks
 
-## Get a fresh project
+**Storage**
+- Local persistent storage
 
-When you're ready, run:
+**Visualization**
+- Chart-based expense analytics
+
+---
+
+## Screenshots
+
+### Trip Dashboard
+![Trip Dashboard](screenshots/dashboard.png)
+
+### Expense Tracking
+![Expense Tracking](screenshots/expenses.png)
+
+### Expense Analytics
+![Analytics](screenshots/analytics.png)
+
+---
+
+## Installation
+
+### 1. Clone the repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/AarinK/Kaaravaan.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Navigate to the project directory
 
-## Learn more
+```bash
+cd Kaaravaan
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3. Install dependencies
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+### 4. Run the development server
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+You can then run the app using:
+
+- Expo Go on your mobile device
+- Android Emulator
+- iOS Simulator
+
+---
+
+## Project Structure
+
+```
+Kaaravaan
+│
+├── components      # Reusable UI components
+├── screens         # Application screens
+├── assets          # Images, icons and static files
+├── utils           # Helper functions
+└── App.tsx         # Application entry point
+```
+
+---
+
+## Key Learnings
+
+While building this project, I gained hands-on experience with:
+
+- Designing **offline-first mobile applications**
+- Managing **local data persistence**
+- Building modular and reusable **React Native components**
+- Implementing **expense analytics and visualization**
+- Structuring scalable mobile app architecture
+
+---
+
+## Future Improvements
+
+- Cloud sync for multi-device access
+- Group trip planning and shared expenses
+- Budget alerts and spending limits
+- Export trip reports
+
+---
+
+## Author
+
+**Aarin Kachroo**
+
+GitHub: https://github.com/AarinK  
+LinkedIn: https://www.linkedin.com/in/aarinkachroo/
+
+---
+
+## License
+
+This project is open source and available under the MIT License.
