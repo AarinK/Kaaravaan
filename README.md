@@ -65,7 +65,7 @@ The goal of this project was to build a lightweight and reliable mobile tool for
 ![Polaroid Maker](screenshots/Polaroid_Maker_Page.jpeg)
 
 ### Sample Expense Bill
-![Sample Bill](screenshots/Sample_Bill.jpeg)
+![Sample Bill](screenshots/Sample_Bill.png)
 
 ---
 
