@@ -42,21 +42,21 @@ The goal of this project was to build a lightweight and reliable mobile tool for
 
 <table>
 <tr>
-<td><img src="screenshots/Dashboard.jpeg" width="250"></td>
-<td><img src="screenshots/Planner_Page.jpeg" width="250"></td>
-<td><img src="screenshots/Planner_Page2.jpeg" width="250"></td>
+<td><img src="screenshots/Dashboard.jpeg" height="180"></td>
+<td><img src="screenshots/Planner_Page.jpeg" height="180"></td>
+<td><img src="screenshots/Planner_Page2.jpeg" height="180"></td>
 </tr>
 
 <tr>
-<td><img src="screenshots/Trip_Gallery_Page.jpeg" width="250"></td>
-<td><img src="screenshots/Update_Expense_Page.jpeg" width="250"></td>
-<td><img src="screenshots/Summary_Page.jpeg" width="250"></td>
+<td><img src="screenshots/Trip_Gallery_Page.jpeg" height="180"></td>
+<td><img src="screenshots/Update_Expense_Page.jpeg" height="180"></td>
+<td><img src="screenshots/Summary_Page.jpeg" height="180"></td>
 </tr>
 
 <tr>
-<td><img src="screenshots/Complete_Trip_Page.jpeg" width="250"></td>
-<td><img src="screenshots/Polaroid_Maker_Page.jpeg" width="250"></td>
-<td><img src="screenshots/Sample_Bill.jpeg" width="250"></td>
+<td><img src="screenshots/Complete_Trip_Page.jpeg" height="180"></td>
+<td><img src="screenshots/Polaroid_Maker_Page.jpeg" height="180"></td>
+<td><img src="screenshots/Sample_Bill.png" height="180"></td>
 </tr>
 </table>
 
